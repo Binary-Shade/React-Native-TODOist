@@ -92,6 +92,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 If you have any questions or feedback, feel free to reach out:
 
-- **GitHub**: [YourUsername](https://github.com/Binary-Shade)
+- **GitHub**: [Binary Shade](https://github.com/Binary-Shade)
 - **Email**: 02042003sureshk@gmail.com
 
