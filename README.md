@@ -1,51 +1,97 @@
-# Welcome to your Expo app 👋
+# React Native Todo App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple and efficient Todo app built with React Native, allowing users to create, manage, and organize their tasks on the go.
 
-## Get started
+## Features
 
-1. Install dependencies
+- **Add Todos**: Quickly add tasks with a simple input field.
+- **Mark as Completed**: Mark tasks as completed with a single tap.
+- **Delete Todos**: Remove tasks you no longer need.
+- **Persistent Storage**: Keep your todos saved even after restarting the app.
+- **User-Friendly UI**: Clean and intuitive design for a seamless user experience.
 
+## Demo
+
+
+| Add Todo | Mark Complete | Delete Todo |
+|----------|---------------|-------------|
+| ![Add Todo](link-to-screenshot) | ![Mark Complete](link-to-screenshot) | ![Delete Todo](link-to-screenshot) |
+
+## Installation
+
+Follow these steps to set up the project locally:
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/Binary-Shade/React-Native-TODOist.git
+   ```
+
+2. **Navigate to the Project Directory**
+   ```bash
+   cd react-native-todo-app
+   ```
+
+3. **Install Dependencies**
    ```bash
    npm install
    ```
-
-2. Start the app
-
+   or
    ```bash
-    npx expo start
+   yarn install
    ```
 
-In the output, you'll find options to open the app in a
+4. **Run the App**
+   - For Android:
+     ```bash
+     npx react-native run-android
+     ```
+   - For iOS:
+     ```bash
+     npx react-native run-ios
+     ```
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Technologies Used
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- **React Native**: Framework for building mobile applications.
+- **React Navigation**: For navigating between screens (if applicable).
+- **AsyncStorage**: For local data persistence.
+- **Expo (Optional)**: For simplified development and testing.
 
-## Get a fresh project
+## How to Use
 
-When you're ready, run:
+1. Open the app on your device or simulator.
+2. Add a task using the input field and press the "Add" button.
+3. View your tasks listed below.
+4. Tap on a task to mark it as completed.
+5. Swipe left (or tap a delete button) to remove a task.
 
-```bash
-npm run reset-project
-```
+## Contributing
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Contributions are welcome! If you'd like to contribute:
 
-## Learn more
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add feature-name"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Open a pull request.
 
-To learn more about developing your project with Expo, look at the following resources:
+## License
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Join the community
+## Contact
 
-Join our community of developers creating universal apps.
+If you have any questions or feedback, feel free to reach out:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-# React-Native-TODOist
+- **GitHub**: [YourUsername](https://github.com/Binary-Shade)
+- **Email**: 02042003sureshk@gmail.com
+
